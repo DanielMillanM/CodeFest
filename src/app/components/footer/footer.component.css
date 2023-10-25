@@ -1,0 +1,13 @@
+.card-footer{
+    margin-top: 50px;
+}
+
+footer {
+    /* background-color: #242424eb; */
+    color: #dbaf29;
+    padding: 10px 0;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+  
+}
