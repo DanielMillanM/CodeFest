@@ -20,6 +20,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { PerfilComponent } from './pages/perfil/perfil.component';
 import { GruposComponent } from './pages/grupos/grupos.component';
 import { FriendsComponent } from './components/friends/friends.component';
+import { ForgotpasswdComponent } from './pages/forgotpasswd/forgotpasswd.component';
+import { RecoveryComponent } from './pages/recovery/recovery.component';
 
 
 @NgModule({
@@ -38,7 +40,9 @@ import { FriendsComponent } from './components/friends/friends.component';
     AmigosComponent,
     PerfilComponent,
     GruposComponent,
-    FriendsComponent
+    FriendsComponent,
+    ForgotpasswdComponent,
+    RecoveryComponent
   ],
   imports: [
     BrowserModule,
