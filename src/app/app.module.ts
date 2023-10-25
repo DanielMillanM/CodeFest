@@ -18,12 +18,8 @@ import { CookieService } from 'ngx-cookie-service';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { PerfilComponent } from './pages/perfil/perfil.component';
-<<<<<<< HEAD
 import { GruposComponent } from './pages/grupos/grupos.component';
 import { FriendsComponent } from './components/friends/friends.component';
-=======
-import { ForgotpasswdComponent } from './pages/forgotpasswd/forgotpasswd.component';
->>>>>>> d09e8e4b97c7f5636ee08e653c7539289c2302ba
 
 
 @NgModule({
@@ -41,12 +37,8 @@ import { ForgotpasswdComponent } from './pages/forgotpasswd/forgotpasswd.compone
     TarjetaComponent,
     AmigosComponent,
     PerfilComponent,
-<<<<<<< HEAD
     GruposComponent,
     FriendsComponent
-=======
-    ForgotpasswdComponent
->>>>>>> d09e8e4b97c7f5636ee08e653c7539289c2302ba
   ],
   imports: [
     BrowserModule,
