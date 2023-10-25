@@ -11,6 +11,8 @@ import { RecoveryComponent } from './pages/recovery/recovery.component';
 import { StreamComponent } from './pages/stream/stream.component';
 import { SeguidoresComponent } from './pages/seguidores/seguidores.component';
 import { ChatComponent } from './pages/chat/chat.component';
+import { ComentariosComponent } from './pages/comentarios/comentarios.component';
+import { GrupoComponent } from './pages/grupo/grupo.component';
 
 const routes: Routes = [
   {
@@ -56,6 +58,14 @@ const routes: Routes = [
   {
     path: 'chat',
     component: ChatComponent
+  },
+  {
+    path: 'comentarios',
+    component: ComentariosComponent
+  },
+  {
+    path: 'grupo',
+    component: GrupoComponent
   }
 ];
 

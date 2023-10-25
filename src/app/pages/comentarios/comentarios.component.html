@@ -1,0 +1,43 @@
+<app-navbar></app-navbar>
+<br>
+    <div class="container">
+
+        <!--- \\\\\\\Post-->
+        <div class="card gedf-card">
+            <app-post></app-post>
+        </div>
+        <!-- Post /////-->
+        <div class="card gedf-card">
+            <div class="container p-3">
+                <div class="card gedf-card">
+                    <app-post></app-post>
+                </div>
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="posts-tab" data-toggle="tab" href="#posts" role="tab" aria-controls="posts" aria-selected="true">Comenta</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <form enctype="multipart/form-data">
+                    <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="posts" role="tabpanel" aria-labelledby="posts-tab">
+                                    <div class="form-group">
+                                        <label class="sr-only" for="message">post</label>
+                                        <textarea class="form-control" id="message" rows="3" placeholder="En que estas pensando?" formControlName="text"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-toolbar justify-content-between">
+                                <div class="btn-group">
+                                    <button type="submit" class="btn btn-primary">Publicar</button>
+                                </div>
+                            </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<app-footer></app-footer>
