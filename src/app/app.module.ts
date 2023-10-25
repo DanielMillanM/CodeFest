@@ -9,6 +9,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { InfoPerfilComponent } from './components/info-perfil/info-perfil.component';
+import { PublishPostComponent } from './components/publish-post/publish-post.component';
+import { PostComponent } from './components/post/post.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     FooterComponent,
     HomeComponent,
     NavbarComponent,
-    SidebarComponent
+    SidebarComponent,
+    InfoPerfilComponent,
+    PublishPostComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
