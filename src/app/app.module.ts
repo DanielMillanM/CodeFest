@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
@@ -13,6 +13,10 @@ import { InfoPerfilComponent } from './components/info-perfil/info-perfil.compon
 import { PublishPostComponent } from './components/publish-post/publish-post.component';
 import { PostComponent } from './components/post/post.component';
 import { TarjetaComponent } from './components/tarjeta/tarjeta.component';
+import { AmigosComponent } from './pages/amigos/amigos.component';
+import { CookieService } from 'ngx-cookie-service';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,13 +30,17 @@ import { TarjetaComponent } from './components/tarjeta/tarjeta.component';
     InfoPerfilComponent,
     PublishPostComponent,
     PostComponent,
-    TarjetaComponent
+    TarjetaComponent,
+    AmigosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
