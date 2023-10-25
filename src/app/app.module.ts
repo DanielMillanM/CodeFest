@@ -18,6 +18,8 @@ import { CookieService } from 'ngx-cookie-service';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { PerfilComponent } from './pages/perfil/perfil.component';
+import { GruposComponent } from './pages/grupos/grupos.component';
+import { FriendsComponent } from './components/friends/friends.component';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { PerfilComponent } from './pages/perfil/perfil.component';
     PostComponent,
     TarjetaComponent,
     AmigosComponent,
-    PerfilComponent
+    PerfilComponent,
+    GruposComponent,
+    FriendsComponent
   ],
   imports: [
     BrowserModule,

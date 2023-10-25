@@ -5,6 +5,7 @@ import { RegisterComponent } from './pages/register/register.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PerfilComponent } from './pages/perfil/perfil.component';
 import { AmigosComponent } from './pages/amigos/amigos.component';
+import { GruposComponent } from './pages/grupos/grupos.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'amigos',
     component: AmigosComponent
+  },
+  {
+    path: 'grupos',
+    component: GruposComponent
   }
 ];
 
