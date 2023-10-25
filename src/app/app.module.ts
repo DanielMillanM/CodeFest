@@ -13,14 +13,12 @@ import { InfoPerfilComponent } from './components/info-perfil/info-perfil.compon
 import { PublishPostComponent } from './components/publish-post/publish-post.component';
 import { PostComponent } from './components/post/post.component';
 import { TarjetaComponent } from './components/tarjeta/tarjeta.component';
-<<<<<<< HEAD
 import { AmigosComponent } from './pages/amigos/amigos.component';
 import { CookieService } from 'ngx-cookie-service';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
-=======
 import { PerfilComponent } from './pages/perfil/perfil.component';
->>>>>>> ab9fae180b4f2ce4b55f052a44f2757306690a17
+
 
 @NgModule({
   declarations: [
@@ -35,11 +33,8 @@ import { PerfilComponent } from './pages/perfil/perfil.component';
     PublishPostComponent,
     PostComponent,
     TarjetaComponent,
-<<<<<<< HEAD
-    AmigosComponent
-=======
+    AmigosComponent,
     PerfilComponent
->>>>>>> ab9fae180b4f2ce4b55f052a44f2757306690a17
   ],
   imports: [
     BrowserModule,
