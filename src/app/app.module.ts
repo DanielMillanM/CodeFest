@@ -12,6 +12,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { InfoPerfilComponent } from './components/info-perfil/info-perfil.component';
 import { PublishPostComponent } from './components/publish-post/publish-post.component';
 import { PostComponent } from './components/post/post.component';
+import { TarjetaComponent } from './components/tarjeta/tarjeta.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PostComponent } from './components/post/post.component';
     SidebarComponent,
     InfoPerfilComponent,
     PublishPostComponent,
-    PostComponent
+    PostComponent,
+    TarjetaComponent
   ],
   imports: [
     BrowserModule,
