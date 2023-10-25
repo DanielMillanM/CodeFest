@@ -13,6 +13,7 @@ import { SeguidoresComponent } from './pages/seguidores/seguidores.component';
 import { ChatComponent } from './pages/chat/chat.component';
 import { ComentariosComponent } from './pages/comentarios/comentarios.component';
 import { GrupoComponent } from './pages/grupo/grupo.component';
+import { CrearSalaComponent } from './pages/crear-sala/crear-sala.component';
 
 const routes: Routes = [
   {
@@ -66,6 +67,10 @@ const routes: Routes = [
   {
     path: 'grupo',
     component: GrupoComponent
+  },
+  {
+    path: 'crear-sala',
+    component: CrearSalaComponent
   }
 ];
 
