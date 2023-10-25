@@ -18,6 +18,7 @@ import { CookieService } from 'ngx-cookie-service';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { PerfilComponent } from './pages/perfil/perfil.component';
+import { ForgotpasswdComponent } from './forgotpasswd/forgotpasswd.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { PerfilComponent } from './pages/perfil/perfil.component';
     PostComponent,
     TarjetaComponent,
     AmigosComponent,
-    PerfilComponent
+    PerfilComponent,
+    ForgotpasswdComponent
   ],
   imports: [
     BrowserModule,
