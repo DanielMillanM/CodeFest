@@ -27,6 +27,7 @@ import { SeguidoresComponent } from './pages/seguidores/seguidores.component';
 import { ChatComponent } from './pages/chat/chat.component';
 import { ComentariosComponent } from './pages/comentarios/comentarios.component';
 import { GrupoComponent } from './pages/grupo/grupo.component';
+import { CrearSalaComponent } from './pages/crear-sala/crear-sala.component';
 
 
 @NgModule({
@@ -52,7 +53,8 @@ import { GrupoComponent } from './pages/grupo/grupo.component';
     SeguidoresComponent,
     ChatComponent,
     ComentariosComponent,
-    GrupoComponent
+    GrupoComponent,
+    CrearSalaComponent
   ],
   imports: [
     BrowserModule,
