@@ -3,11 +3,8 @@
 }
 
 footer {
-    /* background-color: #242424eb; */
-    color: #dbaf29;
-    padding: 10px 0;
-    width: 100%;
-    justify-content: space-between;
-    position: relative;
-  
-}
+    position:relative;
+    bottom:0;
+    left:0;
+    width:100%;
+  }
