@@ -9,6 +9,8 @@ import { GruposComponent } from './pages/grupos/grupos.component';
 import { ForgotpasswdComponent } from './pages/forgotpasswd/forgotpasswd.component';
 import { RecoveryComponent } from './pages/recovery/recovery.component';
 import { StreamComponent } from './pages/stream/stream.component';
+import { SeguidoresComponent } from './pages/seguidores/seguidores.component';
+import { ChatComponent } from './pages/chat/chat.component';
 
 const routes: Routes = [
   {
@@ -46,6 +48,14 @@ const routes: Routes = [
   {
     path: 'stream',
     component: StreamComponent
+  },
+  {
+    path: 'seguidores',
+    component: SeguidoresComponent
+  },
+  {
+    path: 'chat',
+    component: ChatComponent
   }
 ];
 
