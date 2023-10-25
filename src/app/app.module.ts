@@ -13,6 +13,7 @@ import { InfoPerfilComponent } from './components/info-perfil/info-perfil.compon
 import { PublishPostComponent } from './components/publish-post/publish-post.component';
 import { PostComponent } from './components/post/post.component';
 import { TarjetaComponent } from './components/tarjeta/tarjeta.component';
+import { PerfilComponent } from './pages/perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TarjetaComponent } from './components/tarjeta/tarjeta.component';
     InfoPerfilComponent,
     PublishPostComponent,
     PostComponent,
-    TarjetaComponent
+    TarjetaComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
