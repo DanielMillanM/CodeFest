@@ -25,6 +25,8 @@ import { RecoveryComponent } from './pages/recovery/recovery.component';
 import { StreamComponent } from './pages/stream/stream.component';
 import { SeguidoresComponent } from './pages/seguidores/seguidores.component';
 import { ChatComponent } from './pages/chat/chat.component';
+import { ComentariosComponent } from './pages/comentarios/comentarios.component';
+import { GrupoComponent } from './pages/grupo/grupo.component';
 
 
 @NgModule({
@@ -48,7 +50,9 @@ import { ChatComponent } from './pages/chat/chat.component';
     RecoveryComponent,
     StreamComponent,
     SeguidoresComponent,
-    ChatComponent
+    ChatComponent,
+    ComentariosComponent,
+    GrupoComponent
   ],
   imports: [
     BrowserModule,
