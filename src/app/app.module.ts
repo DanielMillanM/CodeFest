@@ -22,6 +22,7 @@ import { GruposComponent } from './pages/grupos/grupos.component';
 import { FriendsComponent } from './components/friends/friends.component';
 import { ForgotpasswdComponent } from './pages/forgotpasswd/forgotpasswd.component';
 import { RecoveryComponent } from './pages/recovery/recovery.component';
+import { StreamComponent } from './pages/stream/stream.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { RecoveryComponent } from './pages/recovery/recovery.component';
     GruposComponent,
     FriendsComponent,
     ForgotpasswdComponent,
-    RecoveryComponent
+    RecoveryComponent,
+    StreamComponent
   ],
   imports: [
     BrowserModule,
